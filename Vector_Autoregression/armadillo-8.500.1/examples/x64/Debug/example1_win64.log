@@ -1,0 +1,19 @@
+﻿Build started 2018/5/25 9:57:45.
+     1>Project "E:\workspace\research\Vector_Autoregression\armadillo-8.500.1\examples\example1_win64.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\VS2013\VC\bin\x86_amd64\CL.exe /c /I..\include /Zi /nologo /W1 /WX- /O2 /D ARMA_USE_LAPACK /D ARMA_USE_BLAS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt example1.cpp
+         example1.cpp
+       Link:
+         E:\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\workspace\research\Vector_Autoregression\armadillo-8.500.1\examples\x64\Debug\example1_win64.exe" /NOLOGO /LIBPATH:lib_win64 lapack_win64_MT.lib blas_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\workspace\research\Vector_Autoregression\armadillo-8.500.1\examples\x64\Debug\example1_win64.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\workspace\research\Vector_Autoregression\armadillo-8.500.1\examples\x64\Debug\example1_win64.lib" /MACHINE:X64 x64\Debug\example1.obj
+         example1_win64.vcxproj -> E:\workspace\research\Vector_Autoregression\armadillo-8.500.1\examples\x64\Debug\example1_win64.exe
+       PostBuildEvent:
+         copy lib_win64\*.dll E:\workspace\research\Vector_Autoregression\armadillo-8.500.1\examples\x64\Debug\
+         :VCEnd
+         lib_win64\blas_win64_MT.dll
+         lib_win64\lapack_win64_MT.dll
+         已复制         2 个文件。
+     1>Done Building Project "E:\workspace\research\Vector_Autoregression\armadillo-8.500.1\examples\example1_win64.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.10

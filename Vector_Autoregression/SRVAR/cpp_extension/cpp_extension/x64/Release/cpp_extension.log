@@ -1,0 +1,5 @@
+﻿Build started 2018/5/25 17:59:10.
+     1>Project "E:\workspace\research\Vector_Autoregression\SRVAR\cpp_extension\cpp_extension\cpp_extension.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\VS2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\cpp_extension.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt cpp_extension.cpp
+         cpp_extension.cpp

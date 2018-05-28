@@ -1,0 +1,11 @@
+﻿Build started 2018/5/25 17:59:52.
+     1>Project "E:\workspace\research\Vector_Autoregression\SRVAR\cpp_extension\cpp_extension\cpp_extension.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\VS2013\VC\bin\x86_amd64\CL.exe /c /I"E:\Anaconda2\pkgs\python-2.7.14-h8c3f1cb_23\include" /IE:\workspace\boost_1_67_0 /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\cpp_extension.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt cpp_extension.cpp
+         cpp_extension.cpp
+     1>E:\workspace\boost_1_67_0\boost/python/detail/wrap_python.hpp(29): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+     1>Done Building Project "E:\workspace\research\Vector_Autoregression\SRVAR\cpp_extension\cpp_extension\cpp_extension.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.56
