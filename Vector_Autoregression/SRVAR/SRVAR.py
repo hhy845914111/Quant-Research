@@ -6,6 +6,7 @@ import numpy as np
 from math import sqrt
 import cPickle as cp
 
+
 def irf(result, innovation_idx, larger_restrict_matrix, less_restrict_matrix, impulse_count, draw_count,
         restrict_period, verbose=False, plot=True):
     def get_sphere_rand():
@@ -113,12 +114,18 @@ if __name__ == "__main__":
 
     data = pd.read_csv("../test_data3.csv")
 
+    '''
     la_constraints = np.array(([True, True, True, False], [False, False, True, False], [False, True, True, False], [False, False, True, False], [False, False, False, True], [False, False, False, True]))
     le_constraints = np.array(([False, False, False, False], [True, False, False, False], [True, False, False, False], [True, True, False, False], [True, False, False, False], [True, False, False, False]))
 
-    arg_lst = [(data, i, la_constraints, le_constraints) for i in xrange(4)]
+    '''
+    la_constraints = np.array(([True, False], [False, False], [False, False], [False, True]))
+    le_constraints = np.array(([False, False], [False, False], [False, False], [False, False]))
 
-    pool = mp.Pool(4)
+
+    arg_lst = [(data, i, la_constraints, le_constraints) for i in xrange(2)]
+
+    pool = mp.Pool(2)
     pool.map(rolling_estimate, arg_lst)
     pool.close()
     pool.join()
